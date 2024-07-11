@@ -1,0 +1,7 @@
+services:
+  app:
+    image: au/node-test
+    ports:
+      - "3030:3000"
+    environment:
+      - NODE_ENV=production
